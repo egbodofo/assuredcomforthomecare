@@ -69,11 +69,11 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background: #8C52FF;
+    background: #FF914C;
     border-color: #8C52FF;
     color: #fff; }
     .btn.btn-primary:hover {
-      background: #FF914C;
+      background: #8C52FF;
       border-color: #FF914C;
       color: #fff; }
     .btn.btn-primary.btn-black--hover:hover {
@@ -299,12 +299,75 @@ body:after {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  #site-name {
-    visibility: hidden;
-    display: none;
+/* New Nav Logo */
+
+#assured-logo-name {
+  font-size: 20px;
+  display: block;
+}
+#assured-logo-img {
+  width: 80px;
+  height: 80px;
+  padding-top: 10px;
+}
+
+@media (min-width:320px)  { 
+  #assured-logo-name  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #assured-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
+
+
+@media (min-width:375px)  { 
+  #assured-logo-name  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #assured-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:425px)  { 
+  #assured-logo-name  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #assured-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:768px)  { 
+  #assured-logo-name  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #assured-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 
 .site-navbar {
   margin-bottom: 0px;
@@ -686,12 +749,13 @@ body:after {
 }
 
 .service {
-  border-radius: 45% 45%;
+  border-radius: 12px;
+  /* border-radius: 45% 45%; */
   padding: 20px;
   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
   /* clip-path: ellipse(200px 500px at 50% 50%); */
-  background: #df7219;
+  background: #8C52FF;
   position: relative;
   top: 0;
   -webkit-transition: .3s all ease;
@@ -729,8 +793,30 @@ body:after {
 /* Services Image */
 
 #services-image{
-  border-radius: 50%;
+  border-radius: 20px;
   object-fit: cover;
+}
+
+@media (min-width:320px)  { 
+  #services-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width:375px)  { 
+  #services-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
 }
 
 @media (min-width:425px)  { 
@@ -743,17 +829,6 @@ body:after {
     overflow: hidden;
   }
 }
-
-/* @media (min-width:768px)  { 
-  #services-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-  }
-} */
 
 .counter-wrap {
   text-align: center; }
@@ -1307,14 +1382,9 @@ transition: all 300ms ease;
   background-color: #191e34;
 }
 
-/* My Card */
-/* 
-#service-card {
-  background-color: #fff;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-} */
+#about-section {
+  background-color: #8C52FF;
+}
 
 .my-card {
   display: flex;
@@ -1325,7 +1395,7 @@ transition: all 300ms ease;
   box-shadow: 4px 4px 4px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
   background-color: #8C52FF;
-  border-radius: 12px;
+  border-radius: 20px;
   overflow: hidden;
   margin: 10px;
   padding: 30px;

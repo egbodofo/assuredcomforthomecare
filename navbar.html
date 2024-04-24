@@ -9,6 +9,7 @@
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             font-family: "Poppins", sans-serif;
@@ -66,9 +67,11 @@
             <div class="container-fluid container-lg p-0">
                 <div class="textColor">
                     <div class="row justify-content-center align-items-center mx-auto">
-                        <div class="col-12 col-lg-3 p-0">
-                            <div class="display-3 fw-bold py-2 text-center text-lg-start d-none d-lg-block">LOGO</div>
-                            <!-- <hr class="d-block d-lg-none"> -->
+                        <div id="assured-logo">
+                            <img id="assured-logo-img" src="/images/assured-logo.jpeg" alt="assuredcomforthomecare-logo">
+                        </div>
+                        <div class="">
+                            <p id="assured-logo-name" class="py-2 text-center text-md-start">Assure Comfort Home Care</p>
                         </div>
                         <div class="col-4 col-lg-3 sideLine">
                             <div class="d-flex justify-content-center align-items-center">
@@ -115,7 +118,7 @@
                     </div>
                 </div>
                 <hr class="my-0 d-lg-none">
-                <div class="text-center display-3 fw-bold mb-2 d-lg-none">LOGO</div>
+                <!-- <div class="text-center display-3 fw-bold mb-2 d-lg-none">LOGO</div> -->
                 <div class="navbarBgDark" data-bs-theme="dark">
                     <nav class="navbar navbar-expand-lg justify-content-center justify-content-lg-between p-0">
 
@@ -134,14 +137,15 @@
                                     <a class="nav-link px-lg-3" href="/about.html">About Us</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle px-lg-3" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle px-lg-3" href="/services.html" role="button"
+                                        data-bs-toggle="dropdown">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="/services.html">All Services</a></li>
                                         <li><a class="dropdown-item" href="#">Housekeeping</a></li>
                                         <li><a class="dropdown-item" href="#">Grocery Shopping</a></li>
-                                        <li><a class="dropdown-item" href="#">Medication Management</a></li>
+                                        <li><a class="dropdown-item" href="#">Medication Reminder</a></li>
                                         <li><a class="dropdown-item" href="#">Transportation</a></li>
                                         <li><a class="dropdown-item" href="#">Spoon Feeding</a></li>
                                         <li><a class="dropdown-item" href="#">Meal Preparation</a></li>
