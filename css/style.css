@@ -1137,6 +1137,7 @@ section {
 position:relative;
 z-index: 1;
 margin-bottom:60px;
+margin-top: 60px;
 }
 
 .sec-title .title{
@@ -1414,7 +1415,7 @@ transition: all 300ms ease;
 @media (min-width:768px)  { 
   .my-card {
     width: 335px;
-    height: 450px; 
+    height: 550px; 
   }
 }
 
@@ -1451,12 +1452,19 @@ transition: all 300ms ease;
   height: auto;
 }
 
+.my-card-heading {
+  color: #ffffff;
+  background-color: #FE914C;
+  padding: 20px;
+  border-radius: 140px 140px 140px 140px / 66px 66px 88px 88px;
+}
+
 .my-card-body {
   padding: 15px;
 }
 
 .my-card-title {
-  color: #333;
+  color: #ffffff;
   font-size: 1.25em;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1464,15 +1472,18 @@ transition: all 300ms ease;
 
 
 .my-card-text {
-  color: rgb(56, 53, 53);
+  color: rgb(255, 255, 255);
   margin-bottom: 15px;
   text-align: left;
   font-family: "Poppins", Sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 800;
   line-height: 1.8em;
   text-decoration: solid;
+  background-color: #FE914C;
+  padding: 10px;
+  border-radius : 40px 25px 111px 25px;
 }
 
 .my-card-link {
