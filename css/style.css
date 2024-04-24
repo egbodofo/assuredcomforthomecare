@@ -294,9 +294,16 @@ body:after {
 }
 
 .logo-image {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #site-name {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 .site-navbar {
